@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Vectori.exe" version="1.0.0.4" publicKeyToken="07b4dec119d6ee3e" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Vectori" version="2.2.3.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Vectori.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7DUaHskxnbAwTda7eRtE3hrHd68ibIJXseBI3S7hPLE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="330752">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>BQCdGlpEpDbTRChg4njgiBHpoCUQwb15ghphTsvY7WE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vectori.exe" size="1801752">
+      <assemblyIdentity name="Vectori" version="2.2.3.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Vwd7YiRA2ZXzkkCtK6FC6SXD3FX6d68zc8VPepx6UgA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="aa\Vectori.resources.dll" size="4096">
+      <assemblyIdentity name="Vectori.resources" version="2.2.3.0" language="aa" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>r2zZX7ngU5PR3brDCjYaqMlCMsmvANOZ57pEz719eFo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icon.ico" size="117867">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uruCOpiqkz2T3ILmE86pAYjCTw/K7w+ps9ILDgJ8PwQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Vectori.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-0GP6FDT\SOFRAN ROMULUS" issuerKeyHash="f0bd6f78726b5fe194318beb8fd7c475fe3c1665" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/T6y00wQPhh+CoAsinN1OglGJRz3fj9Y1h9AARFrvu8=</DigestValue></Reference></SignedInfo><SignatureValue>GK7oKbA0yKKFFSAH2A0KRB7aCi0kHz9gf6W0XHB+2QrVyN+SWURq8/L71KDjMvOCuk+5Azk6x34zV/E4TNZ66o14h9Wt61BZRnt0GchOkq8bLZQtx5xLnRmgBnuv7Uohehf8GWlG5y4N41Rrr1RTNbkVJ4JAELn7OBaaRDulmnA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ukKnwSZUHuT8MJOb2ycE/9hal3oBur2o/WdLYypkotPIN3mEGj2MHf1qO3Ac7pnj1TGKJEbKN/u0PkQ+PaUifVIqSeUSD5cOgkQ9MJ7sNtNW7otNQ+pHRtCbN+cXZX7tb87aaxOhqyXlNSdLoIX7tZNa6EL1vekTmAWXnJUNB80=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="efbe6b1101401fd6583f7ef71c2546093a75738a2c800a7e183e104cd3b23efd" Description="" Url=""><as:assemblyIdentity name="Vectori.exe" version="1.0.0.4" publicKeyToken="07b4dec119d6ee3e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-0GP6FDT\SOFRAN ROMULUS</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>O+J5nabQ34maY0n8W4mbM98p4S2GPJ/QawaOu9kcFMM=</DigestValue></Reference></SignedInfo><SignatureValue>mwz8inWm7paQhpEAZDwzKodhzF2moSznTcLSZl+WTQTHBNvnn+uqfwvN6UjOaOtq5Dv+Vlw/ZkhtcJzRfz0BQy2LPrKB2IrIo9EclP9+kXtZfa5TaGxN4zLDQEbR22hzsdIZizb+Byfbw8ljOkHwCUQUZtMcMHqM5/GhhqxGG+0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ukKnwSZUHuT8MJOb2ycE/9hal3oBur2o/WdLYypkotPIN3mEGj2MHf1qO3Ac7pnj1TGKJEbKN/u0PkQ+PaUifVIqSeUSD5cOgkQ9MJ7sNtNW7otNQ+pHRtCbN+cXZX7tb87aaxOhqyXlNSdLoIX7tZNa6EL1vekTmAWXnJUNB80=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICETCCAXqgAwIBAgIQH/OSDdZFdJtH2cLuO0WI5DANBgkqhkiG9w0BAQsFADBHMUUwQwYDVQQDHjwARABFAFMASwBUAE8AUAAtADAARwBQADYARgBEAFQAXABTAE8ARgBSAEEATgAgAFIATwBNAFUATABVAFMwHhcNMjEwMTE0MTc0MzIzWhcNMjIwMTE0MjM0MzIzWjBHMUUwQwYDVQQDHjwARABFAFMASwBUAE8AUAAtADAARwBQADYARgBEAFQAXABTAE8ARgBSAEEATgAgAFIATwBNAFUATABVAFMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALpCp8EmVB7k/DCTm9snBP/YWpd6Abq9qP1nS2MqZKLTyDd5hBo9jB39ajtwHO6Z49UxiiRGyjf7tD5EPj2lIn1SKknlEg+XDoJEPTCe7DbTVu6LTUPqR0bQmzfnF2V+7W/O2msToasl5TUnS6CF+7WTWuhC9b3pE5gFl5yVDQfNAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAH2+1TLhjPG0DMSykzNKj+QplgIEAZaRd/XSZjigPC8HK/kA13bi76be6Nh6oUoPFSYygws02kiVONvPz+WHuy4bfWR/OlV3qg1MkywlGV8Sahyf4akSsJmDcrktHjzWxeR/MOcp42Gd7ODtKdp16ztgGGjNHjxbeCbTYvvO2guc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

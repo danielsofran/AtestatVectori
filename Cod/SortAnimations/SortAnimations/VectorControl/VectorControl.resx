@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="cntMSgeneral.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>157, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cntMSgeneral.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 380</value>
+  </data>
+  <data name="&gt;&gt;cntMSgeneral.Name" xml:space="preserve">
+    <value>cntMSgeneral</value>
+  </data>
+  <data name="&gt;&gt;cntMSgeneral.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="editeazăElementeleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="editeazăElementeleToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Editează elementele</value>
+  </data>
+  <data name="editeazăElementeleToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Modificați elementele vecorului</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>S&amp;chimbă aspect</value>
+  </data>
+  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="toolStripMenuItem5.Text" xml:space="preserve">
+    <value>Viteza operațiilor</value>
+  </data>
+  <data name="toolStripMenuItem5.ToolTipText" xml:space="preserve">
+    <value>Cu cât această viteză crește, durata pauzelor dintre efectuarea operațiilor scade
+</value>
+  </data>
+  <data name="micăToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="micăToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Mică</value>
+  </data>
+  <data name="micăToolStripMenuItem1.ToolTipText" xml:space="preserve">
+    <value>Cu cât această viteză crește, durata pauzelor dintre efectuarea operațiilor scade</value>
+  </data>
+  <data name="medieToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="medieToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Medie</value>
+  </data>
+  <data name="medieToolStripMenuItem2.ToolTipText" xml:space="preserve">
+    <value>Cu cât această viteză crește, durata pauzelor dintre efectuarea operațiilor scade</value>
+  </data>
+  <data name="mareToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="mareToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Mare</value>
+  </data>
+  <data name="mareToolStripMenuItem2.ToolTipText" xml:space="preserve">
+    <value>Cu cât această viteză crește, durata pauzelor dintre efectuarea operațiilor scade</value>
+  </data>
+  <data name="exrtaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="exrtaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exrta</value>
+  </data>
+  <data name="exrtaToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Cu cât această viteză crește, durata pauzelor dintre efectuarea operațiilor scade</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 6</value>
+  </data>
+  <data name="schimbaMarimeaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="schimbaMarimeaToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Mărime</value>
+  </data>
+  <data name="schimbaMarimeaToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Schimbă autonat atât mărimea elementelor cât și fontul și spațierea.</value>
+  </data>
+  <data name="micaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="micaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mică</value>
+  </data>
+  <data name="medieToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 20</value>
+  </data>
+  <data name="medieToolStripMenuItem.Text" xml:space="preserve">
+    <value>Medie</value>
+  </data>
+  <data name="mareToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="mareToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mare</value>
+  </data>
+  <data name="extraToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="extraToolStripMenuItem.Text" xml:space="preserve">
+    <value>Extra</value>
+  </data>
+  <data name="spațiereToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="spațiereToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Spațiere</value>
+  </data>
+  <data name="micăToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="micăToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mică</value>
+  </data>
+  <data name="medieToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="medieToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Medie</value>
+  </data>
+  <data name="mareToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="mareToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Mare</value>
+  </data>
+  <data name="schiToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="schiToolStripMenuItem.Text" xml:space="preserve">
+    <value>F&amp;ont</value>
+  </data>
+  <data name="schiToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Se recomandă schimbarea acestuia din meniul  Schimbă aspect</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 6</value>
+  </data>
+  <data name="scrieÎnConsolăToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="scrieÎnConsolăToolStripMenuItem.Text" xml:space="preserve">
+    <value>Scrie în consolă</value>
+  </data>
+  <data name="copiazăToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="copiazăToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Copiază</value>
+  </data>
+  <data name="copiazăToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Copiază elementele vectorului</value>
+  </data>
+  <data name="pasebtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="pasebtn.Text" xml:space="preserve">
+    <value>&amp;Lipește</value>
+  </data>
+  <data name="pasebtn.ToolTipText" xml:space="preserve">
+    <value>Lipește elementele vectorului copiat, păstrând 
+setările de mărime/culoareale vectorului destinație, 
+în care se lipesc elementele.</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="toolStripMenuItem3.Text" xml:space="preserve">
+    <value>&amp;Reîmprospătează</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 6</value>
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="toolStripMenuItem4.Text" xml:space="preserve">
+    <value>Culoare de Selecție</value>
+  </data>
+  <data name="toolStripMenuItem4.ToolTipText" xml:space="preserve">
+    <value>Această culoare e diferită față de 
+culoarea de de selecție a sistemului,
+referindu-se la o selecție a utilizatorului.
+</value>
+  </data>
+  <data name="culoareDeFundalToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="culoareDeFundalToolStripMenuItem.Text" xml:space="preserve">
+    <value>Culoare de &amp;Fundal</value>
+  </data>
+  <data name="culoareToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="culoareToolStripMenuItem.Text" xml:space="preserve">
+    <value>Culoare &amp;Text</value>
+  </data>
+  <data name="culoareToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Culoarea textului numerelor </value>
+  </data>
+  <data name="culoareButoaneToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="culoareButoaneToolStripMenuItem.Text" xml:space="preserve">
+    <value>Culoare Elemente</value>
+  </data>
+  <data name="culoareButoaneToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Culoarea de fundal al fiecărui element din vector</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 6</value>
+  </data>
+  <data name="încarcăDinFișierToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="încarcăDinFișierToolStripMenuItem.Text" xml:space="preserve">
+    <value>Încarcă din fișier</value>
+  </data>
+  <data name="salveazăÎnFișierToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="salveazăÎnFișierToolStripMenuItem.Text" xml:space="preserve">
+    <value>Salvează în fișier</value>
+  </data>
+  <metadata name="colorDialogfundal.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>284, 17</value>
+  </metadata>
+  <metadata name="colorDialogfore.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>433, 17</value>
+  </metadata>
+  <metadata name="fontDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>569, 17</value>
+  </metadata>
+  <metadata name="colorDialogback.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="colorDialogselect.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>687, 20</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 99</value>
+  </data>
+  <data name="&gt;&gt;editeazăElementeleToolStripMenuItem.Name" xml:space="preserve">
+    <value>editeazăElementeleToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;editeazăElementeleToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem5.Name" xml:space="preserve">
+    <value>toolStripMenuItem5</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;micăToolStripMenuItem1.Name" xml:space="preserve">
+    <value>micăToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;micăToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;medieToolStripMenuItem2.Name" xml:space="preserve">
+    <value>medieToolStripMenuItem2</value>
+  </data>
+  <data name="&gt;&gt;medieToolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mareToolStripMenuItem2.Name" xml:space="preserve">
+    <value>mareToolStripMenuItem2</value>
+  </data>
+  <data name="&gt;&gt;mareToolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exrtaToolStripMenuItem.Name" xml:space="preserve">
+    <value>exrtaToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;exrtaToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;schimbaMarimeaToolStripMenuItem.Name" xml:space="preserve">
+    <value>schimbaMarimeaToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;schimbaMarimeaToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;micaToolStripMenuItem.Name" xml:space="preserve">
+    <value>micaToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;micaToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;medieToolStripMenuItem.Name" xml:space="preserve">
+    <value>medieToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;medieToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mareToolStripMenuItem.Name" xml:space="preserve">
+    <value>mareToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;mareToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;extraToolStripMenuItem.Name" xml:space="preserve">
+    <value>extraToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;extraToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spațiereToolStripMenuItem.Name" xml:space="preserve">
+    <value>spațiereToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;spațiereToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;micăToolStripMenuItem.Name" xml:space="preserve">
+    <value>micăToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;micăToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;medieToolStripMenuItem1.Name" xml:space="preserve">
+    <value>medieToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;medieToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mareToolStripMenuItem1.Name" xml:space="preserve">
+    <value>mareToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;mareToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;schiToolStripMenuItem.Name" xml:space="preserve">
+    <value>schiToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;schiToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scrieÎnConsolăToolStripMenuItem.Name" xml:space="preserve">
+    <value>scrieÎnConsolăToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;scrieÎnConsolăToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;copiazăToolStripMenuItem.Name" xml:space="preserve">
+    <value>copiazăToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;copiazăToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pasebtn.Name" xml:space="preserve">
+    <value>pasebtn</value>
+  </data>
+  <data name="&gt;&gt;pasebtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Name" xml:space="preserve">
+    <value>toolStripMenuItem3</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Name" xml:space="preserve">
+    <value>toolStripMenuItem4</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;culoareDeFundalToolStripMenuItem.Name" xml:space="preserve">
+    <value>culoareDeFundalToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;culoareDeFundalToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;culoareToolStripMenuItem.Name" xml:space="preserve">
+    <value>culoareToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;culoareToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;culoareButoaneToolStripMenuItem.Name" xml:space="preserve">
+    <value>culoareButoaneToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;culoareButoaneToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Name" xml:space="preserve">
+    <value>toolStripSeparator4</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;încarcăDinFișierToolStripMenuItem.Name" xml:space="preserve">
+    <value>încarcăDinFișierToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;încarcăDinFișierToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;salveazăÎnFișierToolStripMenuItem.Name" xml:space="preserve">
+    <value>salveazăÎnFișierToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;salveazăÎnFișierToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorDialogfundal.Name" xml:space="preserve">
+    <value>colorDialogfundal</value>
+  </data>
+  <data name="&gt;&gt;colorDialogfundal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorDialogfore.Name" xml:space="preserve">
+    <value>colorDialogfore</value>
+  </data>
+  <data name="&gt;&gt;colorDialogfore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fontDialog.Name" xml:space="preserve">
+    <value>fontDialog</value>
+  </data>
+  <data name="&gt;&gt;fontDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FontDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorDialogback.Name" xml:space="preserve">
+    <value>colorDialogback</value>
+  </data>
+  <data name="&gt;&gt;colorDialogback.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorDialogselect.Name" xml:space="preserve">
+    <value>colorDialogselect</value>
+  </data>
+  <data name="&gt;&gt;colorDialogselect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>VectorControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D2DA38AB-E61C-4C69-BAB9-CF3DF272D074}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SortAnimations</RootNamespace>
+    <AssemblyName>Vectori</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\SOFRAN ROMULUS\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form Events\Links.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Events\Tab0\Tab0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Events\Tab0\Tab01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Events\Tab0\Tab02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Events\Tab0\Tab03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Events\Tab0\Tab04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Events\Tab0\Tab05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Events\Tab1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Events\Tab2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Events\Tab3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Events\Tab4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Events\Tab5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Events\Tab6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Events\Tab7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Resize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OwnColors.cs" />
+    <Compile Include="Dialogs\Debugger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Debugger.Designer.cs">
+      <DependentUpon>Debugger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\MarimeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\MarimeDialog.Designer.cs">
+      <DependentUpon>MarimeDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\VectorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\VectorDialog.Designer.cs">
+      <DependentUpon>VectorDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VectorControl\Animatii.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VectorControl\VectorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VectorControl\VectorControl.Designer.cs">
+      <DependentUpon>VectorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VectorControl\Events.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VectorControl\STL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VectorControl\Variabile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <EmbeddedResource Include="Dialogs\Debugger.resx">
+      <DependentUpon>Debugger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\MarimeDialog.resx">
+      <DependentUpon>MarimeDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\VectorDialog.resx">
+      <DependentUpon>VectorDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="VectorControl\VectorControl.aa.resx">
+      <DependentUpon>VectorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VectorControl\VectorControl.resx">
+      <DependentUpon>VectorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="bin\Debug\inserare.rtf" />
+    <None Include="bin\Debug\inserare2.rtf" />
+    <None Include="bin\Debug\inserare2b.rtf" />
+    <None Include="bin\Debug\inserare2bM.rtf" />
+    <None Include="bin\Debug\inserare2M.rtf" />
+    <None Include="bin\Debug\inserareM.rtf" />
+    <None Include="bin\Debug\inserts.rtf" />
+    <None Include="bin\Debug\inserts1.rtf" />
+    <None Include="bin\Debug\inserts2.rtf" />
+    <None Include="bin\Debug\inserts3.rtf" />
+    <None Include="bin\Debug\sortb.rtf" />
+    <None Include="bin\Debug\sortb1.rtf" />
+    <None Include="bin\Debug\sortb2.rtf" />
+    <None Include="bin\Debug\sortb3.rtf" />
+    <None Include="bin\Debug\sortd.rtf" />
+    <None Include="bin\Debug\sortd1.rtf" />
+    <None Include="bin\Debug\sortd2.rtf" />
+    <None Include="bin\Debug\sorti1.rtf" />
+    <None Include="bin\Debug\sorti2.rtf" />
+    <None Include="bin\Debug\sorti22.rtf" />
+    <None Include="bin\Debug\sorti3.rtf" />
+    <None Include="bin\Debug\stergere.rtf" />
+    <None Include="bin\Debug\stergere2.rtf" />
+    <None Include="bin\Debug\stergere2b.rtf" />
+    <None Include="bin\Debug\stergere2bM.rtf" />
+    <None Include="bin\Debug\stergere2M.rtf" />
+    <None Include="bin\Debug\stergereM.rtf" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Help.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\font.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spacing.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speed.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit aspect%28crop image%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editaspect.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edittext.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edittext1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edittext2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editaspect1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit aspect%28crop image%291.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speed1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spacing1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\font1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\link-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sum.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avg.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\top.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\front.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\console.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
